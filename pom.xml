@@ -13,6 +13,14 @@
     <description>Textual watermark remover for PDF files.</description>
     <name>pdf-unstamper</name>
     <url>https://github.com/hwding/pdf-unstamper</url>
+    <repositories>
+        <repository>
+            <id>aliyunmaven</id>
+            <name>aliyun maven</name>
+            <url>https://maven.aliyun.com/repository/public </url>
+        </repository>
+    </repositories>
+
     <build>
         <plugins>
             <plugin>
